@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* color: chartreuse; */
+}
+
+header{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    color: white;
+    color: rgb(126, 126, 126);;
+
+}
+
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px; */
+    padding: 10px;
+}
+
+.logo_name,.c_call,.e_email{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.navi{
+    padding: 10px;
+    padding-left: 48px;
+}
+
+.carousel {
+    width: auto;
+    height: 80vh;
+}
+a{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+
+}
+
+.carousel-item img{
+    width: auto;
+    height: 80vh;
+}
+
+.logo img{
+    height: 50px;
+    width: 60px;
+}
+
+.welc,.home_about{
+    margin: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(126, 126, 126);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.welc h1{
+    align-items: center;
+    font-size: 70px;
+}
+
+.home_about{
+    margin: 40px 60px 20px 60px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    background-color: black;
+    color:rgb(126, 126, 126);
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.home_about h1{
+    font-size: 55px;
+}
+
+.home_about h2{
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.home_about a{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+
