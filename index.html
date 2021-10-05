@@ -30,7 +30,7 @@
     </header>
     <nav>
         <a href="#" target="_blank" rel="noopener noreferrer" class="navi">HOME</a>
-        <a href="#" target="_blank" rel="noopener noreferrer" class="navi">ABOUT US</a>
+        <a href="#About_us" target="_blank" rel="noopener noreferrer" class="navi">ABOUT US</a>
         <a href="#" target="_blank" rel="noopener noreferrer" class="navi">PRODUCTS</a>
         <a href="#" target="_blank" rel="noopener noreferrer" class="navi">OUR CLIENTS</a>
         <a href="#" target="_blank" rel="noopener noreferrer" class="navi">ENQUIRE NOW</a>
@@ -66,13 +66,42 @@
           <!-- <h3>Our Mission</h3>
           <p>To Become most Trusty Brand and Quality Supplier in the world.</p> -->
       </div>
-      <div class="home_about">
+      <div class="home_about" id="About_us">
           <h1>About us</h1>
           <div class="para_about_home">We are most Trusted Brand because of our Quality , Prices and Bond with our Customers.</div>
           <h2>Our Aim:-</h2> 
           <div class="aim">To Provide best Quality services at best prices with all comforts to Customers</div>
           <a href="http://">Read more about us...</a>
       </div>
+
+      <!-- script for smoothscrolling -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
       
   
 
