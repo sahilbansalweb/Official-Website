@@ -74,34 +74,41 @@
           <a href="http://">Read more about us...</a>
       </div>
 
-      <!-- script for smoothscrolling -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
-        
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-        
-              // Store hash
-              var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-        
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        });
-        </script>
+
+      <footer class="page-footer bg-dark text-white font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+          <!-- Grid row-->
+          <div class="row">
+
+
+
+          </div>
+          <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://hacktoberfest.digitalocean.com/"> HACKTOBERFEST2021.com</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+
+
+        <div class="text-center">
+          <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-3x" style="color:rgb(62, 176, 113)"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-3x" style="color:rgb(19, 158, 213)"></i></a>
+          <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-3x" style="color:rgb(13, 48, 59)"></i></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-3x" style="color:blue"></i></a>
+          <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-3x " style="color:red"></i></a>
+          <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-3x" style="color:rgb(181, 80, 80)"></i></a>
+        </div>
+
       
   
 
